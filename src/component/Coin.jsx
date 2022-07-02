@@ -10,7 +10,7 @@ const Coin = (
     return (
         <div>
            <img  src={image} alt={name}/> 
-            <span>{name}</span> 
+           <span>{name}</span> 
            <span>{symbol.toUpperCase()}</span>
            <span>{price.toLocaleString()}</span>
            <span>{priceChange}</span>
