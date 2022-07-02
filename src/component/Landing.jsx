@@ -1,6 +1,7 @@
 import React, {useEffect,useState} from 'react';
 
 import {getCoin} from '../services/api';//API
+ import Loader from './Loader';
 
 const Landing = () => {
 
@@ -16,6 +17,7 @@ const Landing = () => {
 
     return (
         <div>
+            <Loader/>
             <input type="text" placeholder="Search" />
             <div>
                 {
